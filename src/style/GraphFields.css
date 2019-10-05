@@ -1,0 +1,49 @@
+.graph-fields {
+  display: grid;
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.graph-field {
+  display: grid;
+  height: 100%;
+  width: 90%;
+
+  grid-template-columns: 3fr 4fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.graph-field > input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .graph-fields {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: max-content;
+  }
+
+  .graph-field {
+    height: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .graph-field > input {
+    height: 80%;
+  }
+}
