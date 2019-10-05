@@ -1,0 +1,23 @@
+{
+  "name": "normal-flattener",
+  "version": "1.0.0",
+  "description": "Website for comparing results on normal distributions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel static/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retroverse/normal-flattener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retroverse/normal-flattener/issues"
+  },
+  "homepage": "https://github.com/retroverse/normal-flattener#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
